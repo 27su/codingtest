@@ -21,7 +21,7 @@ void getResult(int index, int start){
         if(check[i] || arr[i] == before) continue;
         check[i] = true;
         result.push_back(arr[i]);
-        getResult(index+1, i+1);
+        getResult(index+1, i);
         result.pop_back();
         check[i] = false;
         before = arr[i];
