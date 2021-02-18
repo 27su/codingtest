@@ -3,10 +3,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-bool cmp(int a, int b){
-    return a>b;
-}
-
 int solution(int n, vector<int> weak, vector<int> dist) {
     int answer = INT_MAX;
     int len = weak.size();
